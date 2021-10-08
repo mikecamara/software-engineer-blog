@@ -3,7 +3,7 @@ module.exports = {
     title: `Software Engineer Blog`,
     author: {
       name: `Mike Camara`,
-      summary: `dad, husband, software engineer, world citizen.`,
+      summary: `- A dad, husband, software engineer and world citizen.`,
     },
     description: `A blog about software engineering craftsmanship.`,
     siteUrl: `https://compassionate-kilby-38c2f3.netlify.app/`,
