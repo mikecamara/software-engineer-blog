@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <title>Content Manager</title>
+</head>
+<body>
+  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+        if (window.location.hash.match('access_token')) {
+          document.location.pathname = '/admin';
+        }
+        if (window.location.hash.match('invite_token')) {
+          document.location.pathname = '/admin';
+        }
+        if (window.location.hash.match('confirmation_token')) {
+          document.location.pathname = '/admin';
+        }
+        if (window.location.hash.match('email_change_token')) {
+          document.location.pathname = '/admin';
+        }
+        if (window.location.hash.match('recovery_token')) {
+          document.location.pathname = '/admin';
+        }
+
+
+      });
+    }
+  </script>
+</body>
+</html>
