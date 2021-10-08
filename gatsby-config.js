@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Software Engineer Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Mike Camara`,
+      summary: `dad, husband, software engineer, world citizen.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A blog about software engineering craftsmanship.`,
+    siteUrl: `https://compassionate-kilby-38c2f3.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `mikegomescamara`,
     },
   },
   plugins: [
