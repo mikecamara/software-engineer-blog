@@ -276,7 +276,7 @@ You should see a window like this
 
 Go to Interface options
 
-![Raspberry Pi](./sh-conifg.png "Raspberry Pi")
+![Raspberry Pi](./sh-config.png "Raspberry Pi")
 
 Go to SSH option, and then hit enter and you know should have enabled your SSH.
 
@@ -559,10 +559,15 @@ Each line has a comment mark. The commented text shows the default value. When y
 
 Example:
 
-# STEERING_LEFT_PWM = 460
+```
+#STEERING_LEFT_PWM = 460
+```
+
 becomes:
 
+```
 STEERING_LEFT_PWM = 500
+```
 
 This part can get be super daunting and it is crucial to make the car work, especially, with enabling the correct ports, IMU, etc, for me what work the best was to copy all the initial setup from the [Leo's DonkeyZoo project](https://github.com/schobele/donkey-zoo) and the car will just work fine.
 
@@ -690,7 +695,7 @@ rsync -rv --progress --partial ~/mycar/models/ pi@raspberrypi:~/mycar/models/
 
 If everything went fine you would see something like this.
 
-![Tranfer files success](.copy-success.png "Transfer files success")
+![Tranfer files success](./copy-success.png "Transfer files success")
 
 Wow, done! You are almost there, so close.
 
@@ -704,17 +709,17 @@ python manage.py drive --model ~/mycar/models/mypilot.h5
 
 In the terminal, you will see something like this
 
-![Self-drive car](.drive-car-autonomously.png "Self-drive car")
+![Self-drive car](./drive-car-autonomously.png "Self-drive car")
 
 Now, the very last step. Go to a computer browser, type "raspberrypi:8887" to open the web-app interface, and then make sure that the Mode & Pilot selected is Local Pilot (d) and press the green button to Start the Vehicle
 
-![Self-drive car](.donkey-webapp.png "Self-drive car")
+![Self-drive car](./donkey-webapp.png "Self-drive car")
 
-And Voilá!
+Voilà!
 
 Your car should be driving autonomously now.
 
-Whaaaat? Was this a "Meh" moment?
+Whaaaat? Was this a "meh" moment?
 
 The car is crashing around and not performing as you expected? 
 
