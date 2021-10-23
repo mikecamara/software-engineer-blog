@@ -264,7 +264,7 @@ Save the file.
 
 It's important to notice that with some rare exceptions (such as the ut-public from the University of Tartu), the public WIFI networks won't let you SSH into the Raspberry pi from your computer, so this won't be possible to do over the Eduroam for example unless you have your own router attached to the network, then you just have to connect both devices to the same router or same network.
 
-Now let's check if the SSH is enabled/
+Now let's check if the SSH is enabled.
 
 From the command line enter the command
 
