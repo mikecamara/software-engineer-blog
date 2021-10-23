@@ -745,15 +745,15 @@ Furthermore, if you have trained your car in your track and would like to train 
 
 # Videos of my car driving autonomously
 
-#### Video of my auto-pilot trained with 25k frames.
+#### Video of my auto-pilot trained with 25k frames (The good)
 With enough data the car performance was outstanding. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2cdkh3g9h4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### Video of my auto-pilot trained with less data 10k frames.
+#### Video of my auto-pilot trained with less data 10k frames (The bad)
 Not enough data results in poor self-driving performance.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qI9nAUcKCjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### Video of my auto-pilot failing miserably 
+#### Video of my auto-pilot failing miserably (The ugly)
 In the Delta track, my mistake was to train the model with too little data and I also tried to train the car to drive into random intersections, while I should have driven it in rounded loops. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lMp_M5dhUUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
