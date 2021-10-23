@@ -591,7 +591,7 @@ Important to notice, that it does not need to be tape, it could be a long rope o
 
 Below are some track examples.
 
-The track that I built at Taltech AI Lab
+## The track that I built at Taltech AI Lab
 
 ![Taltech AI Lab](./taltech-track.png "Taltech AI Lab")
 
@@ -599,11 +599,11 @@ My Taltech professor Juhan Ernits recommended I to use a specific type of tape, 
 
 ![Gaffer tape](./gaffer-tape.png "Gaffer tape")
 
-Track in my office room
+## Track in my office room
 
 ![Gaffer tape](./office-track.png "Gaffer tape")
 
-Other tracks I've seen people building
+## Other tracks I've seen people building
 
 ![Track](./track-1.png "Track")
 [Source](https://ars.electronica.art/aeblog/en/2020/01/21/donkey-training/)
@@ -612,7 +612,7 @@ Other tracks I've seen people building
 [Source](https://www.hackster.io/dhq/autonomous-driving-ai-for-donkey-car-garbage-collector-846c11)
 
 ![Track](./track-3.png "Track")
-[Source](https://youtu.be/lfwq73D7oHg)
+[Source](https://youtu.be/lfwq73D7oHg) Here you see the man himself, William Roscoe, running after his DonkeyCar
 
 # Training your model
 
@@ -742,6 +742,18 @@ In [this video](https://www.youtube.com/watch?v=4fXbDf_QWM4) he provides tips on
 But from my own experience and from what I've heard from my peer engineers was that to train your model well you would have to see where it fails, collect more data of those turns, retrain the model with a bigger dataset containing additional data.
 
 Furthermore, if you have trained your car in your track and would like to train in a different place, mixing the data can be difficult and lead to bad results.
+
+# Videos of my car driving autonomouly
+
+## Video of my auto-pilot trained with 25k frames.
+https://user-images.githubusercontent.com/8085864/138568842-dcb59372-f334-4082-ba97-19d1da0d376b.mov
+
+## Video of my auto-pilot trained with less data 10k frames.
+https://user-images.githubusercontent.com/8085864/138568875-45dc7b9e-327d-410b-941e-b132581c1bf4.MP4
+
+## Video of my auto-pilot completely failing miserably at the Delta track, my mistake was to train with too little data and also I tried to train the car to drive at random intersections, and I should have sticked to driving in round loops. 
+https://user-images.githubusercontent.com/8085864/138568956-93f233ff-5787-4441-80bc-d7cb0843bf11.MOV
+
 
 # Resources that I wish I knew before
 
