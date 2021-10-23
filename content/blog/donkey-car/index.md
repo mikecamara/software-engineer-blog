@@ -242,11 +242,11 @@ If the file is empty, then it means that you will have to add your wifi configur
 
 Paste and edit this content to match your wifi, adjust as needed:
 
+```js
 country=ET
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 
-```js
 network={
     ssid="Telia-9EF5D2"
     psk="LACRAIAVENENOSA"
@@ -257,6 +257,8 @@ network={
      key_mgmt=NONE
 }
 ```
+
+You can add as many wifi networks as you would like, you could also add a priority number determining which one would try to connect to first. Notice that the ut-public, from the Delta centre in Tartu, does not require entering a password. 
 
 Save the file.
 
