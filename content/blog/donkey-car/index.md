@@ -238,9 +238,9 @@ and then enter the command to open the file in nano editor and check it out.
 sudo nano wpa_supplicant.conf
 ```
 
-If the file is empty, then it means that you will have to add your wifi configuration there:
+If the file is empty, then it means that you will have to add your wifi configuration there.
 
-Paste and edit this content to match your wifi, adjust as needed:
+Paste and edit this content to match your wifi, adjust as needed.
 
 ```js
 country=ET
