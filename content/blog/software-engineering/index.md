@@ -1,3 +1,9 @@
+---
+title: Software Engineering
+date: "2021-10-01T22:12:03.284Z"
+description: "Introduction to Software Engineering"
+---
+
 I'm currently enrolled in my last year of the course of Master Degree in Software Engineering provided by two universities in partnership, the University of Tartu and TalTech in Tallinn.
 
 My specialization is embeded and real-time systems. 
@@ -42,7 +48,6 @@ This following notes are based in a book from Ian Sommerville, Software Engineer
 The book is certainly a reference in the field, and it is divided into four parts:
 
 Introduction to Software Engineering, Systems Dependability and Security, Advanced Software Engineering and Software Management.
-
 
 Introduction to Software Engineering
 
