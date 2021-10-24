@@ -1,6 +1,8 @@
-# [softwareengineering.netlify.app](https://softwareengineering.netlify.app/)
+# Software Engineering Blog
 
 My personal blog. Forked from [Gatsby blog starter](https://github.com/gatsbyjs/gatsby-starter-blog). 
+
+[Live demo](https://softwareengineering.netlify.app/)
 
 The project was built using [React](https://reactjs.org/) and is automatically deployed using a modern CI/CD Pipeline with [GitHub Actions](https://github.com/features/actions) and [Netlify](https://www.netlify.com/) 
 
