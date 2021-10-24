@@ -645,7 +645,7 @@ My Taltech professor Juhan Ernits recommended I to use a specific type of tape, 
 [Source](https://www.hackster.io/dhq/autonomous-driving-ai-for-donkey-car-garbage-collector-846c11)
 
 ![Track](./track-3.png "Track")
-[Source](https://youtu.be/lfwq73D7oHg) Here you see the man himself, William Roscoe, running after his DonkeyCar
+[Source](https://youtu.be/lfwq73D7oHg) - Notice that here you see the man himself, William Roscoe, running after his DonkeyCar.
 
 # Training your model
 
