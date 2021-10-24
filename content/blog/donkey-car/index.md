@@ -68,7 +68,7 @@ It might also come with an SD memory card, if not you will need to buy one, in t
 
 ![sd cards compared](./sd-card.png "SD Card")
 
-Although not needed, I would also recommend you to get a keyboard, an HDMI cable and a mini HDMI adaptor to plug your Car on a monitor, it will save a lot of time when you are setting up the SSH and find the Raspberry Pi IP address. 
+Although not needed, I would also recommend you to get a keyboard, an HDMI cable and a mini HDMI adaptor to plug your Car on a monitor, it will save a lot of time when you are setting up the SSH of if you need to find out the Raspberry Pi IP address. 
 
 So, once you have the SD card we can start with the installation of the software.
 
@@ -208,7 +208,7 @@ After connecting the battery, to turn on the car, don't forget to press the butt
 
 ![Raspberry Pi Imager](./button-rp.png "Raspberry Pi Imager")
 
-I'm not sure what this switcher below is for, because for me it works in both position, who knows.
+I'm not sure what this switcher below is for, because for me it works in both positions, who knows.
 
 ![Raspberry Pi Imager](./servo-switcher.png "Raspberry Pi Imager")
 
