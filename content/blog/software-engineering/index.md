@@ -1,7 +1,7 @@
 ---
 title: Software Engineering
 date: "2021-10-01T22:12:03.284Z"
-description: "Introduction to Software Engineering"
+description: "🏗 Introduction to Software Engineering"
 ---
 
 I'm currently enrolled in my last year of the course of Master Degree in Software Engineering provided by two universities in partnership, the University of Tartu and TalTech in Tallinn.

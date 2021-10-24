@@ -1,18 +1,18 @@
 ---
 title: Build your own electric self-driving car
 date: "2021-10-27T22:12:03.284Z"
-description: "Donkey Car Initial Setup for Mac"
+description: "🚗 Donkey Car Initial Setup for Mac"
 ---
 
 ## Donkey Car Initial Setup for Mac
 
-> By Mike Camara, supervisors: [Naveed Muhammad (PhD)](https://ee.linkedin.com/in/naveedmuhammadrobotics)  and [Ardi Tampuu (PhD)](https://ee.linkedin.com/in/ardi-tampuu-2b7595a5). Acknowledgement to [Leo Schoberwaltero (Ms)](https://github.com/schobele) for his support.
+> By Mike Camara, supervisors: [Naveed Muhammad (PhD)](https://ee.linkedin.com/in/naveedmuhammadrobotics)  and [Ardi Tampuu (PhD)](https://ee.linkedin.com/in/ardi-tampuu-2b7595a5). Acknowledgement to [Leo Schoberwaltero (Ms)](https://github.com/schobele).
 
 ![donkey car sitting on a desk](./donkeycar-mike.png "DonkeyCar")
 
 DonkeyCar is a Self Racing Car, it is also an open-source software python library that enables you to build your own self-driving scale car using artificial intelligence (AI). 
 
-The good news is that you need to be no Elon Musk or know Machine learning (ML) to get it up and running.
+The good news is that you don't need to be an Elon Musk or a Machine learning (ML) expert to get it up and running.
 
 The hardest part of the project is surprisingly not the AI or ML part, but the initial hardware setup. 
 

@@ -1,7 +1,7 @@
 ---
 title: Software Processes
 date: "2021-10-01T22:12:03.284Z"
-description: "Software process models"
+description: "🧐 Software process models"
 ---
 
 Software processes are a set of activities for software production. It involves software specification, software development, software validation and software evolution.

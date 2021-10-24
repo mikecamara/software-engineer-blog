@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Docker
+description: "🙋‍♂️ What is Docker?"
 date: 2021-10-09T18:28:09.472Z
 ---
 # What is Docker
