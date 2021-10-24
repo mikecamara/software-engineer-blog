@@ -64,7 +64,7 @@ Once you are done with training the CNN, a model is outputted and it can be load
 
 When you first get your box it will contain the assembled car, which consists of a remote control car chassis, an assembled Raspberry Pi, some type of battery and its charger. 
 
-It might also come with an SD memory card, if not you will need to buy one, in terms of memory cards you will need at least 16 GB, but I recommend taking as much memory as possible, for example, my university let me borrow a car that had a 16GB memory stick, and everything was painfully slow to load because when you start to install libraries, you will need space, I've been working with 16 GB and it has been excruciating painful when I wanted to install more advanced libraries. So I bought a 164 ultra-fast memory stick for 40 Euros and I'm saving a lot of time now. 
+It might also come with an SD memory card, if not you will need to buy one, in terms of memory cards you will need at least 16 GB, but I recommend taking as much memory as possible, for example, my university let me borrow a car that had a 16GB memory stick, and everything was painfully slow to load because when you start to install libraries, you will need space, I've been working with 16 GB and it has been excruciating painful when I wanted to install more advanced libraries. So I bought a 128 ultra-fast memory stick for 40 Euros and I'm saving a lot of time now. 
 
 ![sd cards compared](./sd-card.png "SD Card")
 
@@ -190,7 +190,7 @@ After connecting the battery, to turn on the car, don't forget to press the butt
 
 ![Raspberry Pi Imager](./button-rp.png "Raspberry Pi Imager")
 
-And make sure that the servo motor switcher is in the correct position
+And make sure that the servo motor switcher is in the correct position, what worked for me was switching to the right as you can see below.
 
 ![Raspberry Pi Imager](./servo-switcher.png "Raspberry Pi Imager")
 
