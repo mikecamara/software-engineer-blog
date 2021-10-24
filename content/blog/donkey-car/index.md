@@ -6,7 +6,7 @@ description: "🚗 Donkey Car Initial Setup for Mac"
 
 ## Donkey Car Initial Setup for Mac
 
-> By Mike Camara, supervisors: [Naveed Muhammad (PhD)](https://ee.linkedin.com/in/naveedmuhammadrobotics)  and [Ardi Tampuu (PhD)](https://ee.linkedin.com/in/ardi-tampuu-2b7595a5). Acknowledgement to [Leo Schoberwaltero (Ms)](https://github.com/schobele).
+> By Mike Camara. Acknowledgement: [Naveed Muhammad (PhD)](https://ee.linkedin.com/in/naveedmuhammadrobotics), [Ardi Tampuu (PhD)](https://ee.linkedin.com/in/ardi-tampuu-2b7595a5) and [Leo Schoberwaltero (Ms)](https://github.com/schobele).
 
 ![donkey car sitting on a desk](./donkeycar-mike.png "DonkeyCar")
 
