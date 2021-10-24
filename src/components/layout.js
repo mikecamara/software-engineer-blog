@@ -25,9 +25,9 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Visit my 
+        © {new Date().getFullYear()}, 
         {` `}
-        <a href="https://www.linkedin.com/in/mikecamara">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/mikecamara">LinkedIn</a> - <a href="https://www.github.com/mikecamara">GitHub</a>
       </footer>
     </div>
   )

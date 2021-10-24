@@ -1,5 +1,5 @@
 ---
-title: Build your own self-driving car with Donkey Car
+title: Build your own electric self-driving car
 date: "2021-10-27T22:12:03.284Z"
 description: "Donkey Car Initial Setup for Mac"
 ---
@@ -128,6 +128,24 @@ As soon as you type you will see the environment in your terminal changing from 
 
 ![code compiled in the terminal](./base-to-donkey.png "Terminal Image")
 
+You might come across the following error
+
+![code compiled in the terminal](./error-conda.png "Terminal Image")
+
+If so just enter the following commands
+
+```
+conda info --envs
+```
+
+And then you can see the correct file location, which in my case was the following
+
+![code compiled in the terminal](./conda-solution.png "Terminal Image")
+
+```
+conda activate /opt/miniconda3/envs/donkey
+```
+
 Next command 
 
 ```js
@@ -186,13 +204,26 @@ If everything went okay you should see now something like this.
 
 Now let's insert your SD card in your Raspberry Pi and start the car, in this first run, I will connect the raspberry to a screen monitor, just to double-check that the WIFI settings are correct and the SSH is enabled.
 
-After connecting the battery, to turn on the car, don't forget to press the button to power the car.
+After connecting the battery, to turn on the car, don't forget to press the button to power the car. For some reason, I always forget this.
 
 ![Raspberry Pi Imager](./button-rp.png "Raspberry Pi Imager")
 
-And make sure that the servo motor switcher is in the correct position, what worked for me was switching to the right as you can see below.
+I'm not sure what this switcher below is for, because for me it works in both position, who knows.
 
 ![Raspberry Pi Imager](./servo-switcher.png "Raspberry Pi Imager")
+
+By the way, Donkey Car chassis holds:
+
+* Raspberry Pi 4 
+* One motor that spins in both ways powering the 4 wheels to move the car forward and backwards
+* One servomotor that powers the steering angle of the two front wheels moving the car to the left or to the right
+* One microcontroller attached to the Raspberry Pi to control the motors
+* One Raspberry Pi Camera Module V2-8 Megapixel,1080p
+* Battery
+
+Notice how you can use a USB-C cable to power the Raspberry Pi, like in the photo below, this will save you time charging batteries, however, it's good for when just needs to interact with the code, but it won't power the motor and servomotor.
+
+![Raspberry Pi Power](./power-rp.png "Raspberry Pi Power")
 
 The raspberry pi comes with two mini HDMI ports that you can use to connect to the screen.
 

@@ -30,7 +30,7 @@ const BlogIndex = ({ data, location }) => {
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
-          const {timeToRead} = node;
+          const {timeToRead} = post;
 
           return (
             <li key={post.fields.slug}>
@@ -46,7 +46,7 @@ const BlogIndex = ({ data, location }) => {
                     </Link>
                   </h2>
                   <small>{post.frontmatter.date}</small>
-                  <small>{timeToRead}</small>
+                  <small> -  {timeToRead} min read</small>
                 </header>
                 <section>
                   <p
@@ -76,10 +76,13 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       nodes {
-        timeToRead
         excerpt
+        timeToRead
         fields {
           slug
+          readingTime {
+            text
+          }
         }
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
