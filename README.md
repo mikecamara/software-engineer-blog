@@ -12,3 +12,6 @@ To run locally, `yarn`, `yarn install`, `yarn start`, then open https://localhos
 
 This is an open source project, that means anybody can clone this repository and is free to use, study, modify, and distribute your project for any purpose. These permissions are enforced through [MIT license](https://opensource.org/licenses/MIT).
 
+## License
+
+The content of this project itself is licensed under the [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/), and the underlying source code used to format and display that content is licensed under the [MIT license](LICENSE.md).
