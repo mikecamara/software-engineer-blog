@@ -7,7 +7,7 @@ description: "🏗 Introduction to Software Engineering"
 ![Messy cables](./messy-cables.png "Messy cables")
 [Image source](https://www.pinterest.com.au/pin/237494580324101159/)
 
-I'm home town Rio de Janeiro, and in Brazil, in general, is very common to see messy electric cable infrastructure like the one above. It looks ugly, but it works, so why fix it?
+In my home town Rio de Janeiro, and in Brazil, in general, is very common to see messy electric cable infrastructure like the one above. It looks ugly, but it works, so why fix it?
 
 This is the same question that some companies that have legacy spaghetti code ask themselves as well, they wonder what are the benefits of refactoring messy code and tidying up the codebase. 
 
@@ -17,8 +17,8 @@ Imagine if for some reason one of the buildings in that picture has a problem wi
 
 ## The art of Software Engineering
 
-![Tidy cables](./tidy-cables.png "Tidy cables")
-[Image source](https://www.pinterest.com.au/pin/237494580324101159/)
+![Tidy cables](./neat-cables.jpeg "Tidy cables")
+[Image source](https://www.pinterest.com.au/pin/804666658414870548/)
 
 I'm currently enrolled in my last year of the course of Master Degree in Software Engineering provided by two universities in partnership, the University of Tartu and TalTech in Tallinn.
 
