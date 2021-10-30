@@ -73,7 +73,7 @@ The stage consist of four areas:
 
 The processes in this stage are related to evolving the software as it lives through it is life cycle. For instance, software usually has licences that need to be updated, or libraries that became deprecated, or even when the hardware, such as phones evolve the software has to evolve along or is at the risk of dying. 
 
-## Changes are inevitably
+## Changes are inevitable
 
 Technology is progressing faster than ever, the requirements will change, the hardware will change and software engineers must be ready to cope with change. 
 
