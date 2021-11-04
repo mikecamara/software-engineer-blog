@@ -10,19 +10,17 @@ description: "🚗 Donkey Car Initial Setup for Mac"
 
 ![donkey car sitting on a desk](./donkeycar-mike.png "DonkeyCar")
 
-DonkeyCar is a Self Racing Car, it is also an open-source software python library that enables you to build your self-driving scale car using artificial intelligence (AI). 
+DonkeyCar is a racing car, it is also an open-source software python library that enables you to build your self-driving scale car using artificial intelligence (AI). 
 
 The good news is that you don't need to be an Elon Musk or a Machine learning (ML) expert to get it up and running.
 
-The hardest part of the project is surprisingly not the AI or ML part, but the initial hardware setup. 
-
-Even though that I had previous knowledge using Raspberry Pis and Linux, and there is an abundance of documentation scattered around the web guiding the set-up of these cars, I confess that I initially struggled a bit in different stages. 
+The initial hardware setup felt overwhelming. Even though that I had previous knowledge using Raspberry Pis and Linux, and there is an abundance of documentation scattered around the web guiding the set-up of these cars, I confess that I initially struggled a bit in different stages. 
 
 So, if you are either a student from some school and they let you use the DonkeyCar to experiment and learn more about Machine Learning, or you are just an individual curious about self-driving cars and decided to purchase the DonkeyCar platform to get you kickstarted without reinventing the wheel, this article is for you.
 
-I'm my case I was from the first group, I'm a student currently taking a masters degree in software engineering at the University of Tartu, and I took a [course in Autonomous Vehicles Projects](https://courses.cs.ut.ee/2021/AutVehProj/fall) and they let me borrow one of their Donkey Cars.
+In my case I was from the first group, I'm a student currently taking a masters degree in software engineering at the University of Tartu, and I took a [course in Autonomous Vehicles Projects](https://courses.cs.ut.ee/2021/AutVehProj/fall) and they let me borrow one of their Donkey Cars.
 
-I will document here all the detailed steps that you will need to take to get you up and running with the car. And I will also dive into the DonkeyCar infrastructure, explain how it works and share all the resources that helped me along the way.
+I will document here all the detailed steps that you will need to take to get you up and running with the car. Besides, I will also dive into the DonkeyCar infrastructure, explain how it works and share all the resources that helped me along the way.
 
 Hopefully, after reading this article, you will fail less and reduce or eliminate unnecessary frustration and get your car driving autonomously faster.
 
