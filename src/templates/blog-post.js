@@ -1,5 +1,8 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
+import { Disqus } from 'gatsby-plugin-disqus';
+import { DiscussionEmbed } from "disqus-react"
+
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -10,6 +13,11 @@ const BlogPostTemplate = ({ data, location }) => {
   const {timeToRead} = post
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
+  const disqusConfig = {
+    shortname: process.env.GATSBY_DISQUS_NAME,
+    config: { identifier: data.site.siteMetadata?.identifier, siteTitle },
+  }
+
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -31,6 +39,7 @@ const BlogPostTemplate = ({ data, location }) => {
           itemProp="articleBody"
         />
         <hr />
+        <DiscussionEmbed {...disqusConfig} />
         <footer>
           <Bio />
         </footer>
