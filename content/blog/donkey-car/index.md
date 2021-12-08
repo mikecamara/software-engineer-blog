@@ -1,5 +1,5 @@
 ---
-title: Build an electric self-driving car
+title: Build an electric scaled self-driving car
 date: "2021-10-27T22:12:03.284Z"
 description: "🚗 Donkey Car Initial Setup for Mac"
 ---
