@@ -974,7 +974,7 @@ This was the track created by the Cambridge University researchers.
 ![Cambridge track](./cambridge-track.png "cambridge track")
 
 
-# FUTURE WORK
+# Future Work
 
 Now that I managed to craft a model that can drive the circuit, my next goal is to retrain the same model but now add small static obstructions in the track such as Lego Doblo cars and blocks as I'm getting ready for the DeltaX competition. Furthermore, I intend to use the pre-trained model MobileNet V2 SSD provided by Google to implement the stop sign detection and do some experiments to try to misclassify it with evasion attacks on the machine learning model using the IBM Adversarial Robustness Toolbox.
 
