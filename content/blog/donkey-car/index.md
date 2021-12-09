@@ -804,7 +804,7 @@ The network was trained with around 24.000 images, and I had also activated the 
 
 ![model loss](./pilot-4-1111.png "model loss")
 
-However, what I think contributed the most was training the network with cleaned supervised data. Interesting to notice that I didn't apply any special driving style as recommended here, in fact, I just drove not so fast, avoiding collision and trying to keep the vehicle in the centre of the lane. 
+However, what I think contributed the most was training the network with cleaned supervised data. Interesting to notice that I didn't apply any special driving style as recommended [here](https://www.youtube.com/watch?v=4fXbDf_QWM4), in fact, I just drove not so fast, avoiding collision and trying to keep the vehicle in the centre of the lane. 
 
 Training the car to drive in the centre of the lane proved to be a challenging task, using the joystick I measured that I would have for every 1000 images an average of two collisions with the wall, so exploring the tools that are available with the Donkeycar package was very helpful. 
 
