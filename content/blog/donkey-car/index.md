@@ -168,7 +168,9 @@ For instance, this was one place in which the DonkeyCar documentation was rather
 
 First [download the Raspian operating system](https://downloads.raspberrypi.org/raspbian_lite_latest).
 
-Then extract the file and you will have a .img file.
+Alternatively, you can get the Raspian operating system at the [official RoboCar Store](https://github.com/robocarstore/donkeycar-images). At the end of this post, in the lessons learnt section, you will see that I made the mistake of not using the RoboCar version of the Raspberry Pi, as a result, I could never use the benefits of the [Donkey car mobile app](https://medium.com/robocar-store/robocar-controller-quick-start-guide-bdf8cb16d7ce). 
+
+Once you download the file, then extract it and you will have a .img file.
 
 Now download the software [Raspberry Pi Imager](https://www.raspberrypi.com/news/raspberry-pi-imager-imaging-utility/), once you open it, it will look like this.
 
@@ -936,6 +938,8 @@ donkey train --tub data/tub_56_21-12-06,data/tub_71_21-12-07 --model ./models/pi
 The model loss graphs from my most successful models have shown that the models only need 10 or 12 epochs to create a good pilot, again another proof that you don't need a lot of data to generate a good model, but you will need to be as precise as possible. 
 
 ![model loss](./tub56-pilot.png "model loss")
+
+At a late stage of the project, I realized that I couldn't get the DonkeyCar app to work, neither Android nor iOS, which is not essential but I couldn't easily see the battery level or use the phone as a controller. I realized that the issue was the I should have instead downloaded and flashed the latest Raspberry Pi image from the [Robo Car Store official repository](https://github.com/robocarstore/donkeycar-images) to reset my car. More information [here](https://medium.com/robocar-store/robocar-controller-quick-start-guide-bdf8cb16d7ce)
 
 One last tip is to pay attention to the tracks you create. I have wasted a lot of time building bad tracks, and it would delay the entire project progress. For instance, some of the mistakes I've made:
 
