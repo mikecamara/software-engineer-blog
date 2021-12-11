@@ -939,7 +939,7 @@ The model loss graphs from my most successful models have shown that the models 
 
 ![model loss](./tub56-pilot.png "model loss")
 
-At a late stage of the project, I realized that I couldn't get the DonkeyCar app to work, neither Android nor iOS, which is not essential but I couldn't easily see the battery level or use the phone as a controller. I realized that the issue was the I should have instead downloaded and flashed the latest Raspberry Pi image from the [Robo Car Store official repository](https://github.com/robocarstore/donkeycar-images) to reset my car. More information [here](https://medium.com/robocar-store/robocar-controller-quick-start-guide-bdf8cb16d7ce)
+At a late stage of the project, I realized that I couldn't get the DonkeyCar app to work, neither Android nor iOS, which is not essential but I couldn't easily see the battery level or use the phone as a controller. I realized that the issue was that I should have instead downloaded and flashed the latest Raspberry Pi image from the [Robo Car Store official repository](https://github.com/robocarstore/donkeycar-images) to reset my car. More information [here](https://medium.com/robocar-store/robocar-controller-quick-start-guide-bdf8cb16d7ce)
 
 One last tip is to pay attention to the tracks you create. I have wasted a lot of time building bad tracks, and it would delay the entire project progress. For instance, some of the mistakes I've made:
 
@@ -965,7 +965,7 @@ My next track was more ambitious and had turns to both left and right, however, 
 ### The circuit in B shape at the home office
 ![b shapetrack](./b-shape.png "b shape track")
 
-The shape and driveability of this track were superior to all before, however, covering the floor with wrapping paper was such a mistake, the car had to use an extra throttle power to move the car on the uneven parts of the paper, which [would lead the car to either stop or crash suddenly](https://youtube.com/shorts/3pnUasHhfKk?feature=share) even with a good training dataset. 
+The shape and driveability of this track were superior to all before, however, covering the floor with wrapping paper was such a mistake, the car had to use an extra throttle power to move on top of the uneven parts of the paper, which [would lead the car to either stop or crash suddenly](https://youtube.com/shorts/3pnUasHhfKk?feature=share) even with a good training dataset. 
 
 ## Track 5
 ### The circuit in B shape at the home office improved
