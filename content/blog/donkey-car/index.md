@@ -168,7 +168,7 @@ For instance, this was one place in which the DonkeyCar documentation was rather
 
 First [download the Raspian operating system](https://downloads.raspberrypi.org/raspbian_lite_latest).
 
-Alternatively, you can get the Raspian operating system at the [official RoboCar Store](https://github.com/robocarstore/donkeycar-images). At the end of this post, in the lessons learnt section, you will see that I made the mistake of not using the RoboCar version of the Raspberry Pi, as a result, I could never use the benefits of the [Donkey car mobile app](https://medium.com/robocar-store/robocar-controller-quick-start-guide-bdf8cb16d7ce). 
+Alternatively, you can get the Raspian operating system at the [official RoboCar Store](https://github.com/robocarstore/donkeycar-images). At the end of this post, in the [lessons learnt section](#lessons-learnt), you will see that I made the mistake of not using the RoboCar version of the Raspberry Pi, as a result, I could never use the benefits of the [Donkey car mobile app](https://medium.com/robocar-store/robocar-controller-quick-start-guide-bdf8cb16d7ce). 
 
 Once you download the file, then extract it and you will have a .img file.
 
@@ -885,7 +885,7 @@ pip install git+https://github.com/autorope/keras-vis.git
 ```
 And then to generate the video I would use the commands:
 
-```
+````
 donkey makemovie --tub=data/tub_27_21-12-03
 ````
 or 
