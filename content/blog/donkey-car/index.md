@@ -939,7 +939,7 @@ The model loss graphs from my most successful models have shown that the models 
 
 ![model loss](./tub56-pilot.png "model loss")
 
-At a late stage of the project, I realized that I couldn't get the DonkeyCar app to work, neither Android nor iOS, which is not essential but I couldn't easily see the battery level or use the phone as a controller. I realized that the issue was that I should have instead downloaded and flashed the latest Raspberry Pi image from the [Robo Car Store official repository](https://github.com/robocarstore/donkeycar-images) to reset my car. More information [here](https://medium.com/robocar-store/robocar-controller-quick-start-guide-bdf8cb16d7ce)
+At a late stage of the project, I realized that I couldn't get the DonkeyCar app to work, neither Android nor iOS, which is not essential but I couldn't easily see the battery level or use the phone as a controller. I realized that the issue was that I should have instead downloaded and flashed the latest Raspberry Pi image from the [Robo Car Store official repository](https://github.com/robocarstore/donkeycar-images) to reset my car. More information about the Donkey car app [here](https://medium.com/robocar-store/robocar-controller-quick-start-guide-bdf8cb16d7ce).
 
 One last tip is to pay attention to the tracks you create. I have wasted a lot of time building bad tracks, and it would delay the entire project progress. For instance, some of the mistakes I've made:
 
